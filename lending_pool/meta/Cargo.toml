@@ -1,0 +1,11 @@
+[package]
+name = "lending-pool-meta"
+version = "0.0.0"
+authors = ["CostinCarabas <costin.carabas@dharitri.com>"]
+edition = "2018"
+publish = false
+[dependencies.lending-pool]
+path = ".."
+
+[dependencies.dharitri-sc-meta]
+version = "0.12.0"

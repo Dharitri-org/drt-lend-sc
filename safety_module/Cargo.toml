@@ -1,0 +1,16 @@
+[package]
+name = "safety-module"
+version = "0.0.0"
+authors = ["CostinCarabas <costin.carabas@dharitri.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+[dependencies.dharitri-sc]
+version = "0.12.0"
+
+[dependencies.common-structs]
+path = "../common/structs"
+[dev-dependencies.dharitri-sc-scenario]
+version = "0.12.0"

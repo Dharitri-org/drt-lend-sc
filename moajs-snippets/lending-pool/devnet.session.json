@@ -1,0 +1,30 @@
+{
+    "networkProvider": {
+        "type": "ProxyNetworkProvider",
+        "url": "https://devnet-gateway.dharitri.com",
+        "timeout": 5000
+    },
+    "reporting": {
+        "explorerUrl": "https://devnet-explorer.dharitri.com",
+        "apiUrl": "https://devnet-api.dharitri.com",
+        "outputFolder": "~/reports"
+    },
+    "users": {
+        "individuals": [
+            {
+                "name": "whale",
+                "pem": "~/dharitrisdk/testwallets/latest/users/frank.pem"
+            },
+            {
+                "name": "firstUser",
+                "pem": "~/dharitrisdk/testwallets/latest/users/dan.pem"
+            },
+            {
+                "name": "secondUser",
+                "pem": "~/dharitrisdk/testwallets/latest/users/eve.pem"
+            }
+        ],
+        "groups": [
+        ]
+    }
+}
